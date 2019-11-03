@@ -1,8 +1,9 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 import time 
 from faker import Faker
 import random
+from selenium.webdriver.common.by import By
+
 
 fake = Faker()
 n = int(input("how many fake blogs you wanna enter ?  "))
